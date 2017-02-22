@@ -22,7 +22,7 @@ namespace UsingIDisposable
         {
            
             sw.Write("Unmaneged codes have already disposed!");
-            sw.Close();
+           // sw.Close();
         }
 
         #region IDisposable Support
