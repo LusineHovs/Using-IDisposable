@@ -16,6 +16,7 @@ namespace UsingIDisposable
 
             FileCreator fc = new FileCreator(path);
                 fc.Writing();
+                fc.Dispose();
 
         }
     }
